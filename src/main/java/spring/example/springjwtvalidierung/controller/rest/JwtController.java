@@ -63,8 +63,6 @@ public class JwtController {
                 HttpStatus.OK);
     }
 
-    // Parse
-
     boolean isRsaFamiliy(final String jwtToken) {
 
         final String[] split_string = jwtToken.split("\\.");
