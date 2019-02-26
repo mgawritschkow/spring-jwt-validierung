@@ -1,0 +1,6 @@
+
+authentication:
+  # Authorization: The header attribute whose value contains the JWT after logging in.
+  header-attribute: Authorization
+  # RSA256 Public Key zum Testsn
+  rsa-public-key: ${AUTHENTICATION_RSA_PUBLIC_KEY:MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqCoBHmOhcJlkIrDymZDve1YvOclFZJ49uN/GrrDrGwl49hlKSjZH5QqDNmwVTrs8h2TUH3XtXn6DJZUofAAmfXDR6qIRTiZpV1PCuX6uMTtxsoM2TNdVKcgWe3byDvRhjF7sB5etQ2fKmomejCJ1hlT4ocrsj7zpx/PYteZ35E72CmG1KZ5Kq9TfWuGFDQcJoYQ080dn4MG5lwtICB8ZiM5T28wnHb9bcs9zd9OLWpGGmUCBZIPZ/ofFQE29VvxO3lwddJ+SnCv7zZdlIQfD3VkAgdyBigBoy9zX4X26HlHTIkZPzvaQQlbRlNEfkAuDJJK4cTb68DLCidPJcQhh7QIDAQAB}
