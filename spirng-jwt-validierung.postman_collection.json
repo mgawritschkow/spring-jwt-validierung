@@ -1,0 +1,57 @@
+{
+	"info": {
+		"_postman_id": "c38e0297-ecdf-4a2f-abce-a3a0ecd11a21",
+		"name": "spirng-jwt-validierung",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Echo JWT",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJWNy1JeHNQaEpWRGUwbHVtbVU3bV90NlY2WEk2dmtyVFVxbjFkNG1FRkVRIn0.eyJqdGkiOiJlOTBjMDA2OC03M2M5LTQ1ZGEtODU1Mi0wNDA3ZTA3MTEyZWUiLCJleHAiOjE2Mzc1MDY3OTksIm5iZiI6MCwiaWF0IjoxNTUxMTkzMTk5LCJpc3MiOiJodHRwczovL2xpc2EtZGV2ZWxvcG1lbnQuaW50ZWdyYXRpb24ubGlicmkuY2xvdWQvYXV0aC9yZWFsbXMvbTJtIiwiYXVkIjoiYWNjb3VudCIsInN1YiI6ImQ5MjMxMDMyLWIwZDMtNDA3NC1hMGI5LTAyZTJmZmZiMTFlMyIsInR5cCI6IkJlYXJlciIsImF6cCI6ImhhZW5kbGVyLTEyMyIsImF1dGhfdGltZSI6MCwic2Vzc2lvbl9zdGF0ZSI6IjNjZGZjNmY5LTg4M2MtNGFlYi1iMWEwLTRlNDlhOTQ4NWQyNSIsImFjciI6IjEiLCJyZWFsbV9hY2Nlc3MiOnsicm9sZXMiOlsiS0FUQUxPR19MSUJfR0VTQU1UIl19LCJyZXNvdXJjZV9hY2Nlc3MiOnsiYWNjb3VudCI6eyJyb2xlcyI6WyJtYW5hZ2UtYWNjb3VudCIsIm1hbmFnZS1hY2NvdW50LWxpbmtzIiwidmlldy1wcm9maWxlIl19fSwic2NvcGUiOiJlbWFpbCBwcm9maWxlIiwiZW1haWxfdmVyaWZpZWQiOmZhbHNlLCJjbGllbnRIb3N0IjoiMTAuMi4xNTguMTc0IiwiY2xpZW50SWQiOiJoYWVuZGxlci0xMjMiLCJwcm9maWxlIjp7ImhhZW5kbGVySWQiOjEyM30sInJvbGVzIjpbIlJPTEVfS0FUQUxPR19MSUJfR0VTQU1UIl0sInByZWZlcnJlZF91c2VybmFtZSI6InNlcnZpY2UtYWNjb3VudC1oYWVuZGxlci0xMjMiLCJjbGllbnRBZGRyZXNzIjoiMTAuMi4xNTguMTc0IiwiZW1haWwiOiJzZXJ2aWNlLWFjY291bnQtaGFlbmRsZXItMTIzQHBsYWNlaG9sZGVyLm9yZyJ9.eoo6xa7NjczMBVOCI44D3hcBprdes9iu3vnmdLl1aBsbr1HmUy-Ns_8h4JhaX5KZnSrfrw0KHbtW5dV6Z3oEgBOPPZJWHT4AZCpo7_1czn_80RPS6OeR78tl3Ndp8oe0sSL01MVlzaPjvTZNW4uUGRLLr6MXQgiSRLf8hFyNMUtIRXm0OHNNCxil-IgIsKiPhITUyEfDvnTax3gUxLxpPUemzFOF5AbvctQzAUYG6RVRwU2YmEBrDMAiiYA7ehilWyqIApuDFTkyY0IzeAG_0mnFIwA1ABregkq98HVPLJdRrMW3ARTWpFFIgHi_YU2g4otZAO0SWuxUATH0_lQN5Q",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8080/echo-jwt",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"echo-jwt"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Echo Signature",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		}
+	]
+}
